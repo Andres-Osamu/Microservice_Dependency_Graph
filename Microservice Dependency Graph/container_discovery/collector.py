@@ -23,7 +23,7 @@ def getContainerData():
 def writeContainerData(data):
 
     # Original Filename, commented out for safety
-    f = open("ContainerData.txt", "a")
+    f = open("./Container_Data/ContainerData.txt", "a")
     # f = open("ContainerData_SCRAP.txt", "a")
 
     for container in data:

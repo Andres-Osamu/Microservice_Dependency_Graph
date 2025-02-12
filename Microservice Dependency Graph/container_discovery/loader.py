@@ -4,7 +4,7 @@ from lib.models import containerData
 def readContainerData():
     containerList = []
 
-    containerCorpus = open("./Container Data/ContainerData.txt", "r")
+    containerCorpus = open("./Container_Data/ContainerData.txt", "r")
 
     lines = containerCorpus.readlines()
 

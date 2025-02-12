@@ -1,0 +1,5 @@
+docker_py==1.10.6
+networkx==3.4.2
+nltk==3.9.1
+python_dateutil==2.8.2
+pytz==2022.7.1

@@ -75,4 +75,4 @@ def makeMultiGraph(dataMatrix, sqlMatrix, callMatrix, microserviceList):
 
 
 def createGML(multiGraph):
-    nx.write_gml(multiGraph, "GraphAnalysis\DependencyMultiGraph.gml")
+    nx.write_gml(multiGraph, "Graph_Analysis\DependencyMultiGraph.gml")
