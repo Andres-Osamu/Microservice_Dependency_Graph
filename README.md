@@ -1,6 +1,6 @@
 # Microservice Dependency Graph
 
-Microservice architecture enables scalable and extensible systems by breaking down functionality into small, independent components. However, as these systems evolve, ensuring compliance with policies and design constraints becomes challenging. To address this, a technique for constructing a Microservices Dependency Graph (MDG). This graph models call and data dependencies between microservices, service buses, publish-subscribe frameworks, and databases.
+Microservice architecture enables scalable and extensible systems by breaking down functionality into small, independent components. However, as these systems evolve, ensuring compliance with policies and design constraints becomes challenging. To address this, a technique for constructing a Microservices Dependency Graph (MDG) is presented. This graph models call and data dependencies between microservices, service buses, publish-subscribe frameworks, and databases.
 
 The MDG is built using log analysis and probabilistic reasoning to associate logged events. It is a labeled, typed, directed multigraph where:
 
